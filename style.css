@@ -1,0 +1,116 @@
+
+
+body{
+    background:antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+   font-family: poppins;
+ 
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background: linear-gradient(to left,lightgreen,skyblue);
+    color: beige;
+    align-items: center;
+    
+}
+
+nav li{
+   padding-left: 10px;
+   padding-right: 10px;
+    font-style: bold;
+    color: azure;
+    font-size: 15px;
+}
+
+
+.brand img{
+    padding-right: 10px;
+    width: 44px; 
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.container{
+    min-height: 72vh;
+    
+    color: white;
+    font-family: "poppins";
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:30px;
+    background-image: url(covers/bg.jpg) ;
+    background-position: 50%;
+   
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background:linear-gradient(to left,lightgreen,skyblue);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 14px;
+    
+}
+
+.icons i{
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+#myprogreebar{
+    text-align: center;
+    width: 80vh;
+    height: 10%;
+}
+
+.songItem{
+        height: 50px;
+        display: flex;
+        background-color:white;
+        margin: 12px 0;
+        width: 80%;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 34px;
+       
+        
+}
+
+.songItem img{
+   
+    margin:0 23px ;
+    width: 50px;
+    
+
+} 
+.timestamp{
+    margin: 0 23 px;
+}
