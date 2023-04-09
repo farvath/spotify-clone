@@ -56,7 +56,7 @@ nav li{
     font-family: "poppins";
     display: flex;
     margin: 23px auto;
-    width: 70%;
+    width: 65%;
     border-radius: 12px;
     padding:30px;
     background-image: url(covers/bg.jpg) ;
@@ -74,43 +74,75 @@ nav li{
     flex-direction: column;
     
 }
+
+
+
 .icons{
-    margin-top: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     
 }
 
 .icons i{
     cursor: pointer;
-    padding-left: 15px;
+    padding-left: 0px;
 }
+
+
 
 #myprogreebar{
     text-align: center;
-    width: 80vh;
-    height: 10%;
+    width: 70%;
+    height: 50%;
+  
 }
 
 .songItem{
-        height: 50px;
+        height: 55px;
         display: flex;
-        background-color:white;
-        margin: 12px 0;
-        width: 80%;
-        color: black;
+       
+        margin: 15px 0;
+        width: 135%;
+        color:azure;
         justify-content: space-between;
         align-items: center;
-        border-radius: 34px;
+        border-radius: 25px;
+        font-size:large;
+        background: linear-gradient(to left,skyblue,lightgreen);
+       
        
         
 }
 
-.songItem img{
-   
-    margin:0 23px ;
+.songItem img{ 
+    margin:0 10px ;
     width: 50px;
-    
-
+    border-radius: 50%;
 } 
-.timestamp{
-    margin: 0 23 px;
+
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    font-family: 'Varela Round', sans-serif;
 }
+
+.songInfo img{
+    opacity: 50;
+    transition: opacity 0.4s ease-in;
+    width: 5vw;
+    height: 3vh;
+    
+    size: 50px;
+}
+
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.timestamp{
+    margin: 50 px;
+}
+
+
+
